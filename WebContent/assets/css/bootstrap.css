@@ -312,6 +312,13 @@ img {
   max-width: 100%;
   height: auto;
 }
+.img-responsive2 {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;   
+}
 .img-rounded {
   border-radius: 6px;
 }
@@ -5187,7 +5194,7 @@ button.close {
 }
 @media (min-width: 768px) {
   .modal-dialog {
-    width: 600px;
+    width: 768px;
     margin: 30px auto;
   }
   .modal-content {
